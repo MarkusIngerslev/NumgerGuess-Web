@@ -3,10 +3,24 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
+        <link rel="shortcut icon" href="#" type="image/x-icon" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Guess a number</title>
     </head>
     <body>
         <h1>Velkommen til gæt et tal</h1>
+
+        <ul id="guesses">
+            <!--
+                <li>Du gættede på 54 - det var for højt</li>
+                <li>Du gættede på 31 - det var for lavt</li>
+                <li>Du gættede på 42 - det var korrekt!</li>
+                -->
+        </ul>
+        <form action="" id="guesser">
+            <input type="number" id="guess" />
+            <button id="guess-button">gæt</button>
+        </form>
 
         <script type="module" src="./script.js"></script>
     </body>
