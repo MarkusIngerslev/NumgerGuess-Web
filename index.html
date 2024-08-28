@@ -8,20 +8,19 @@
         <title>Guess a number</title>
     </head>
     <body>
-        <h1>Velkommen til gæt et tal</h1>
+        <div class="container">
+            <h1>Velkommen til gæt et tal</h1>
 
-        <ul id="guesses">
-            <!--
-                <li>Du gættede på 54 - det var for højt</li>
-                <li>Du gættede på 31 - det var for lavt</li>
-                <li>Du gættede på 42 - det var korrekt!</li>
-                -->
-        </ul>
-        <form action="" id="guesser">
-            <input type="number" id="guess" />
-            <button id="guess-button">gæt</button>
-        </form>
+            <ul id="guesses">
+                <!-- Tidligere gæt bliver placeret her -->
+            </ul>
 
+            <!-- Gæt form -->
+            <form action="" id="guesser">
+                <input type="number" id="guess" />
+                <button id="guess-button">gæt</button>
+            </form>
+        </div>
         <script type="module" src="./script.js"></script>
     </body>
 </html>
